@@ -1,0 +1,406 @@
+body {
+  background-color: lightgray;
+}
+
+/* INSCRIPTION ET LOGIN */
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.wrapper {
+  padding: 30px;
+  border: 1px solid #f1f1f1;
+  background: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 2%;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 3%;
+}
+
+.form-group {
+  margin: 10px 0px 10px 0px;
+}
+
+.form-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+  font-weight: bold;
+}
+
+.form-group input {
+  height: 30px;
+  width: 95%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.btnreset{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+/* Bouton login */
+
+.btnlog{
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: darkblue;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+  cursor: pointer;
+  text-align: center;
+  width: 30%;
+}
+
+.btnlog:hover {
+  background-color: white;
+  color: blue;
+  border: 1px solid blue;
+}
+
+/* Bouton */
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: darkblue;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+  cursor: pointer;
+  text-align: center;
+  width: 22%;
+}
+
+.btn:hover {
+  background-color: white;
+  color: blue;
+  border: 1px solid blue;
+}
+
+/* Style paragraphe et ancrage */
+
+p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #0995fe;
+}
+
+/* Couleur de l'erreur */
+
+.invalid-feedback {
+  color: #a94442;
+}
+
+
+/* PAGE WELCOME */
+
+.welcome {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.imga {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img {
+  width: 3em;
+  object-fit: contain;
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+.container {
+  padding: 30px;
+  border: 1px solid #f1f1f1;
+  background: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 2%;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 1%;
+}
+
+.btnlogout {
+  padding: 10px;
+  padding-top: 15px;
+  font-size: 15px;
+  color: white;
+  display: block;
+  cursor: pointer;
+  text-align: center;
+  color: red;
+  width: 25%;
+}
+
+.btnlogout:hover {
+  background-color: white;
+  color: red;
+  border: 1px solid red;
+}
+
+/* Tableau du welcome admin */
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid darkblue;
+  margin-top: 3%;
+}
+
+thead th:nth-child(1) {
+  width: 3%;
+}
+
+thead th:nth-child(2) {
+  width: 10%;
+}
+
+thead th:nth-child(3) {
+  width: 10%;
+}
+
+thead th:nth-child(4) {
+  width: 40%;
+}
+
+th, td {
+  padding: 20px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+.wrappertab {
+  padding: 30px;
+  border: 1px solid #f1f1f1;
+  background: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 2%;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 3%;
+}
+
+/* Style du bouton ajouter un utilisateur, voir et modifier*/
+
+.btntab {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: darkblue;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  text-align: center;
+  width: 50%;
+}
+
+.btntab:hover {
+  background-color: white;
+  color: blue;
+  border: 1px solid blue;
+}
+
+.read{
+  margin-right: 8%;
+}
+
+.update{
+  margin-right: 8%;
+}
+
+
+/* VOIR UN UTILISATEUR ( READ ) */
+
+.titleread{
+	text-align: center;
+}
+
+.wrapperread {
+  padding: 30px;
+  border: 1px solid #f1f1f1;
+  background: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 2%;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 3%;
+}
+
+.form-groupread {
+  margin: 50px 0px 50px 0px;
+}
+
+.form-groupread label {
+  display: block;
+  text-align: center;
+  margin: 3px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.btnread {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: darkblue;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  text-align: center;
+  width: 10%;
+}
+
+.btnread:hover {
+  background-color: white;
+  color: blue;
+  border: 1px solid blue;
+}
+
+
+/* SUPPRESSION D'UN UTILISATEUR ( DELETE ) */
+
+.suppuser{
+  font-size: large;
+}
+
+/* Bouton yes */
+.btndelete {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: red;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  text-align: center;
+  width: 10%;
+  margin-top: 5%;
+}
+
+.btndelete:hover {
+  background-color: white;
+  color: red;
+  border: 1px solid red;
+}
+
+/* Bouton no */
+.btndelete2 {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: darkblue;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  text-align: center;
+  width: 7%;
+  margin-top: 2%;
+}
+
+.btndelete2:hover {
+  background-color: white;
+  color: blue;
+  border: 1px solid blue;
+}
+
+
+/* MODIFIER UN UTILISATEUR ( UPDATE ) */
+
+.user-select{
+  height: 40px;
+  width: 101%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.btnupdate{
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: darkblue;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  text-align: center;
+  width: 17%;
+  margin-top: 2%;
+}
+
+.btnupdate:hover {
+  background-color: white;
+  color: blue;
+  border: 1px solid blue;
+}
+
+
+/* CREER UN UTILISATEUR ( CREATE ) */
+
+.wrappercreate {
+  padding: 30px;
+  border: 1px solid #f1f1f1;
+  background: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 2%;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 3%;
+}
+
+/* Bouton no */
+.btnback {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: darkblue;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  text-align: center;
+  width: 20%;
+  margin-top: 2%;
+}
+
+.btnback:hover {
+  background-color: white;
+  color: blue;
+  border: 1px solid blue;
+}
